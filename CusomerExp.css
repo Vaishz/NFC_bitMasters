@@ -7,14 +7,18 @@
 
 .scroll-container{
     width: 100vw;
-    height: 600px;
+    height: 700px;
     background-color: #029811;
     display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
 }
+
+
 
 .card {
     width: 400px;
-    height: 500px;
+    height: auto;
     border-radius: 15px;
     background-color: rgb(220, 139, 41);
     display: flex;
@@ -24,14 +28,23 @@
     box-shadow: 0px 0px 14px 7px #c2e9ae;
     padding: 2rem;
     margin: 5rem;
+    animation: scroll 25s linear infinite;
 }
 
+@keyframes scroll {
+    0%
+    {
+        transform: translateX(0px);
+    }
+    100%
+    {
+        transform: translateX(-1000%);
+    }
+}
 .card-img-container {
     width: 200px;
     height: 200px;
     transform: translateY(-120px);
-    
-
 }
 
 .card-img-container img {
@@ -44,4 +57,8 @@
     filter: grayscale(.2);
     box-shadow: 0px 0px 15px 7px #029811;
     transition: 0.8s;
+}
+
+.details h2{
+    font-size: 15px;
 }
