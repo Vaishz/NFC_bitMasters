@@ -85,9 +85,14 @@
 
 }
 
+
 i {
     /* border: 12px solid grey; */
     box-shadow: 14px 13px 19px 24px #e07048
+}
+i:hover{
+    transform: scale(1.2);
+    box-shadow: 14px 13px 19px 24px #76f0e1;
 }
 
 .card-container {
@@ -113,3 +118,19 @@ i {
 #title::after {
     content: '|';
 }
+/* 
+#btn
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+    border: 2px solid black;
+    
+} */
