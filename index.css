@@ -4,3 +4,135 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar{
+width: 100vw;
+height: 60px;
+}
+
+.navbar ul{
+    list-style: none;
+    background: rgba(1, 1, 1, 0.8);
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    display: block;
+    padding: 15px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar ul li ul.dropdown1, li ul.dropdown3 {
+    display: block;   
+
+}
+.navbar ul li ul.dropdown1, li ul.dropdown3{
+    width: 100%;        
+    background-color: rgba(231, 247, 238, 0.8);
+    position: absolute;
+    padding: 10px 10px;
+    z-index: 999;
+    display: none;
+}
+
+
+
+.navbar ul li a:hover{
+    color: black;
+    transition: 0.2s;
+   color:  #6DCD88;  
+}
+
+.navbar ul li:hover ul.dropdown1 , li:hover ul.dropdown3{
+    display: block;
+    margin: auto;
+    width: 130px;
+    /* padding: 0.63rem 0.5rem; */
+    font-size: 15px;
+}
+
+/* .navbar ul li a:hover li:hover ul.dropdown3{
+    margin: 2px 3px;
+} */
+
+/* .navbar ul li , li:hover ul.dropdown3{
+    line-height: 1rem;                          // this causes the text to hover upwards
+} */
+.navbar ul ul.dropdown1 li:hover , ul.dropdown3 li:hover{
+    color: #020102 ;
+    font-size: 1.15rem;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    text-shadow: 2px 2px 5px 6px rgb(12, 9, 9);
+}
+
+#type
+{
+    width: 500px;
+    height: 500px;
+    background-color: #cd6d6d;
+    color: #020102;
+}
+
+.head-1,
+.head-2
+{
+    width: 100vw;
+    height: 500px;
+    font-size: 2rem;
+    background-color: rgb(240, 240, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-2 span
+{
+background-color: #6DCD88;
+font-family: 'Teko', sans-serif;
+}
+
+.head-2 
+{
+    font-size: 4rem;
+}
+
+.reasons {
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    background-color: #f0f069;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reasons h1 {
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; 
+  }
+  
+  #ans
+  {
+    font-size: 5rem;
+    display: flex;
+    background-color: #ACECA1;
+    align-items: center;
+    justify-content: center;
+  }
