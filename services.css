@@ -52,15 +52,16 @@ body{
 .navbar ul li:hover ul.dropdown1 , li:hover ul.dropdown3{
     display: block;
     margin: auto;
-    width: 120px;
+    width: 130px;
+    /* padding: 0.63rem 0.5rem; */
     font-size: 15px;
 }
 
-.navbar ul li a:hover li:hover ul.dropdown3{
+/* .navbar ul li a:hover li:hover ul.dropdown3{
     margin: 2px 3px;
-}
+} */
 
-/* .navbar ul li:hover , li:hover ul.dropdown3{
+/* .navbar ul li , li:hover ul.dropdown3{
     line-height: 1rem;                          // this causes the text to hover upwards
 } */
 .navbar ul ul.dropdown1 li:hover , ul.dropdown3 li:hover{
