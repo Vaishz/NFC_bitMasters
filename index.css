@@ -1,6 +1,10 @@
 *{
     margin: 0;
+<<<<<<< HEAD
+    padding: 0;
+=======
     padding:0;
+>>>>>>> a8550d8ea7576487c839beb66855fdb543ea776d
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
