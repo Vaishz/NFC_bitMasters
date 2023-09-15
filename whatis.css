@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins';
+}
+h1{
+    width: 95vw;
+}
+.p1{
+    font-size: 17px;
+    width: 95vw;
+}
+h2{
+    font-size: 20px;
+}
+pre{
+    font-size: 17px;
+}
+.container{
+    width: 95vw;
+    height: auto;
+    word-wrap: none;
+}
