@@ -3,40 +3,97 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(240, 234, 206);
 }
 
-html,
 body {
-    /* margin-left: 20px;
-    margin-right: 20px;
-    height: 100%;
-    width: 100%; */
-    width:700px;
-    height: 1200px;
-    margin: auto;
- 
+    background-color: #f0eacd;
+    width: 700px;
+    margin: 0 auto;
 }
 
-h1{
-    color: darkolivegreen;
-    font-family: 'Bebas Neue';
-    font-size: 500%;
+.header {
+    background-color: #8bc34a;
     text-align: center;
+    padding: 20px;
 }
 
-h2{
-    font-family: 'Source Sans 3';
-    font-size: 30px;
+.header h1 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
 }
 
-.vata-image{
-    width: 500px;
-    height: 500px;
-    background-color: blue;
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.vata-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+#kapharot {
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+#kaphaman {
+    animation: updown 2s linear infinite;
+    background-color: transparent;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.intro,
+.description,
+.location,
+.signs,
+.problems {
+    background-color: #c5e1a5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.intro p,
+.description p,
+.location p {
+    font-size: 23px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
 }
