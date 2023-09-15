@@ -78,6 +78,7 @@
     height: 250px;
     display: flex;
     align-items: center;
+    justify-self: center;
     border-radius: 15px;
     transform-style: preserve-3d;
     backface-visibility: hidden;
@@ -85,10 +86,12 @@
 }
 
 
-.card-front-image img, .card-back-image img{
+
+.card-front-image img,
+.card-back-image img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 15px;
     transform-style: preserve-3d;
     backface-visibility: hidden;
