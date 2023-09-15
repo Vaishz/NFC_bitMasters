@@ -8,10 +8,6 @@
 
 html,
 body {
-    /* margin-left: 20px;
-    margin-right: 20px;
-    height: 100%;
-    width: 100%; */
     width:700px;
     height: 1200px;
     margin: auto;
@@ -48,9 +44,7 @@ body{
     justify-self: center;
 }
 
-#vataf
-
-@keyframes rotate {
-    from 
-    
+#vataflow{
+    top: 30px;
 }
+
