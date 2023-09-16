@@ -25,13 +25,23 @@
 .navbar ul li a {
     display: block;
     padding: 15px 10px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
     transition: 0.2s;
 }
 
+
+.navbar ul li ul.dropdown1,.navbar ul li ul.dropdown3 {
+    display: block;   
+
+}
+.navbar ul li ul.dropdown1 ,.navbar ul li ul.dropdown3 {
+    width: 100%;   
+    height: auto;     
+    background-color: rgba(231, 247, 238, 0.8);
+}
 .navbar ul li ul.dropdown1,
 li ul.dropdown3 {
     display: block;
@@ -41,12 +51,12 @@ li ul.dropdown3 {
 li ul.dropdown3 {
     width: 150px;
     background-color: #6DCD88;
+
     position: absolute;
     padding: 10px 10px;
     z-index: 999;
     display: none;
-<<<<<<< HEAD
-=======
+
 }
 #bodytypes{
    display: none;
@@ -78,8 +88,13 @@ li ul.dropdown3 {
 
 .navbar ul li a:hover{
     color: black;
->>>>>>> 8c35ac08e430e88162879d6a15b82e7f4eb49b45
+
     transition: 0.2s;
+
+   /* color:  #6DCD88;   */
+}
+
+.navbar ul li:hover ul.dropdown1 ,.navbar ul li:hover ul.dropdown3 {
     height: 0;
     top: 100%; /* Position dropdown below the parent */
     left: 0; /* Align dropdown with parent */
@@ -97,6 +112,7 @@ li ul.dropdown3 {
 
 .navbar ul li:hover ul.dropdown1,
 li:hover ul.dropdown3 {
+
     display: block;
     margin: auto;
     width: 200px;
@@ -106,10 +122,23 @@ li:hover ul.dropdown3 {
     white-space: normal;
 }
 
+
+/* .navbar ul li a:hover li:hover ul.dropdown3{
+    margin: 2px 3px;
+} */
+
+/* .navbar ul li , li:hover ul.dropdown3{
+    line-height: 1rem;                          // this causes the text to hover upwards
+} */
+.navbar ul li ul.dropdown1 li:hover ,.navbar ul li ul.dropdown3 li:hover{
+    color: #020102 ;
+    font-size: 1.15rem;
+}
 .navbar ul ul.dropdown1 li:hover,
 ul.dropdown3 li:hover {
     color: #020102;
     font-size: 1.25rem;
+
     transition: 0.5s;
     font-weight: bold;
     cursor: pointer;
