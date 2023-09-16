@@ -8,10 +8,11 @@
 
 html, body
 {
-    height: 200px;
-    width: 600px;
-    margin-left: 50px;
-    margin-top: 100px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 #map{
@@ -30,6 +31,7 @@ html, body
 .div h2
 {
     font-size: 2rem;
+    line-height: 3rem;
 }
 
 .div{
@@ -38,5 +40,13 @@ html, body
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
+h1:hover{
+    
+}
+
