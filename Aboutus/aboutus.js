@@ -7,8 +7,8 @@ var typed = new Typed('#title', {
 
 var a1 = document.getElementById('v-git')
 a1.addEventListener('click',function(){
-  const redirectURL='https://github.com/Vaishz';
-  window.open(redirectURL,'_blank');
+  const redirectURL1='https://github.com/Vaishz';
+  window.open(redirectURL1,'_blank');
 })
 
 // var b1 = document.getElementById('v-mail')
@@ -18,27 +18,27 @@ a1.addEventListener('click',function(){
 
  
 // })
-var b1 = document.getElementById('v-mail')
-b1.addEventListener('click',function sendEmail() {
-  // Define email parameters
-  const recipient = "shweta.sidhwani@gmail.com";
-  // const subject = "Subject of the email";
-  // const body = "Body of the email";
+// var b1 = document.getElementById('v-mail')
+// b1.addEventListener('click',function sendEmail() {
+//   // Define email parameters
+//   const recipient = "shweta.sidhwani@gmail.com";
+//   // const subject = "Subject of the email";
+//   // const body = "Body of the email";
 
-  // Create a mailto URL
-  const mailtoURL = `mailto:${recipient}`;
+//   // Create a mailto URL
+//   const mailtoURL = `mailto:${recipient}`;
 
-  // Open the user's default email client
-  window.location.href = mailtoURL;
-})
+//   // Open the user's default email client
+//   window.location.href = mailtoURL;
+// })
 
 // Call the function when a button or icon is clicked
 document.getElementById("emailButton").addEventListener("click", sendEmail);
 
 var c1 = document.getElementById('v-link')
 c1.addEventListener('click',function(){
-  const redirectURL='https://www.linkedin.com/in/vaishnavi-v-poti-9b33a225a/';
-  window.open(redirectURL,'_blank');
+  const redirectURL2='https://www.linkedin.com/in/vaishnavi-v-poti-9b33a225a/';
+  window.open(redirectURL2,'_blank');
 })
 
 
@@ -46,23 +46,23 @@ c1.addEventListener('click',function(){
 
 var a2 = document.getElementById('a-git')
 a2.addEventListener('click',function(){
-  const redirectURL='https://github.com/AshmitSrivastava';
-  window.open(redirectURL,'_blank');
+  const redirectURL3='https://github.com/AshmitSrivastava';
+  window.open(redirectURL3,'_blank');
 })
 
-var b2 = document.getElementById('a-mail')
-b2.addEventListener('click',function(){
-  function mailTo()
-{
-window.location.href = "mailto:ashmitsrivastava1607@gmail.com";
-}
+
+// })var b2 = document.getElementById('a-mail')
+// b2.addEventListener('click',function(){
+//   function mailTo()
+// {
+// window.location.href = "mailto:ashmitsrivastava1607@gmail.com";
+// }
  
-})
 
 var c2 = document.getElementById('a-link')
 c2.addEventListener('click',function(){
-  const redirectURL='https://www.linkedin.com/in/ashmit-srivastava-4443ba21a';
-  window.open(redirectURL,'_blank');
+  const redirectURL4='https://www.linkedin.com/in/ashmit-srivastava-4443ba21a';
+  window.open(redirectURL4,'_blank');
 })
 
 
@@ -70,23 +70,23 @@ c2.addEventListener('click',function(){
 
 var a3 = document.getElementById('d-git')
 a3.addEventListener('click',function(){
-  const redirectURL='https://github.com/Dhruvt0310';
-  window.open(redirectURL,'_blank');
+  const redirectURL5='https://github.com/Dhruvt0310';
+  window.open(redirectURL5,'_blank');
 })
 
-var b3 = document.getElementById('d-mail')
-b3.addEventListener('click',function(){
-  function mailTo()
-{
-window.location.href = "mailto:: taterdhruv0310@gmail.com";
-}
+// var b3 = document.getElementById('d-mail')
+// b3.addEventListener('click',function(){
+//   function mailTo()
+// {
+// window.location.href = "mailto:: taterdhruv0310@gmail.com";
+// }
  
-})
+// })
 
-var c4 = document.getElementById('d-link')
+var c3 = document.getElementById('d-link')
 c4.addEventListener('click',function(){
-  const redirectURL='';
-  window.open(redirectURL,'_blank');
+  const redirectURL6='';
+  window.open(redirectURL6,'_blank');
 })
 
 
@@ -94,22 +94,22 @@ c4.addEventListener('click',function(){
 
 var a4 = document.getElementById('s-git')
 a4.addEventListener('click',function(){
-  const redirectURL='https://github.com/shwetasidhwani';
-  window.open(redirectURL,'_blank');
+  const redirectURL7='https://github.com/shwetasidhwani';
+  window.open(redirectURL7,'_blank');
 })
 
-var b4 = document.getElementById('s-mail')
-b4.addEventListener('click',function(){
-  function mailTo()
-{
-window.location.href = "mailto:shweta.sidhwani@gmail.com";
-}
+// var b4 = document.getElementById('s-mail')
+// b4.addEventListener('click',function(){
+//   function mailTo()
+// {
+// window.location.href = "mailto:shweta.sidhwani@gmail.com";
+// }
  
-})
+// })
 
-var c1 = document.getElementById('s-link')
-c1.addEventListener('click',function(){
-  const redirectURL='https://www.linkedin.com/in/shweta-sidhwani-b66153287/';
+var c4 = document.getElementById('s-link')
+c4.addEventListener('click',function(){
+  const redirectURL8='https://www.linkedin.com/in/shweta-sidhwani-b66153287/';
   window.open(redirectURL,'_blank');
 })
 
