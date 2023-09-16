@@ -18,4 +18,15 @@ pre{
     width: 95vw;
     height: auto;
     word-wrap: none;
+    margin-left: 50px;
+    
 }
+
+.fixed-bg {
+    background-image: url("whatis/Images/bg_img.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
