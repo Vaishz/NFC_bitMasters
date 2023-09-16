@@ -11,14 +11,29 @@ a1.addEventListener('click',function(){
   window.open(redirectURL,'_blank');
 })
 
-var b1 = document.getElementById('v-mail')
-b1.addEventListener('click',function(){
-  function mailTo()
-{
-window.location.href = "mailto:poti.vaishnavi21@gmail.com";
-}
+// var b1 = document.getElementById('v-mail')
+// b1.addEventListener('click',function mailTo(){
+  
+// window.location.href = "mailto:poti.vaishnavi21@gmail.com";
+
  
+// })
+var b1 = document.getElementById('v-mail')
+b1.addEventListener('click',function sendEmail() {
+  // Define email parameters
+  const recipient = "shweta.sidhwani@gmail.com";
+  // const subject = "Subject of the email";
+  // const body = "Body of the email";
+
+  // Create a mailto URL
+  const mailtoURL = `mailto:${recipient}`;
+
+  // Open the user's default email client
+  window.location.href = mailtoURL;
 })
+
+// Call the function when a button or icon is clicked
+document.getElementById("emailButton").addEventListener("click", sendEmail);
 
 var c1 = document.getElementById('v-link')
 c1.addEventListener('click',function(){
