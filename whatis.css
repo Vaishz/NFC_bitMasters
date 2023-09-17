@@ -23,7 +23,7 @@ pre{
 }
 
 .fixed-bg {
-    background-image: url("whatis/Images/bg_img.jpg");
+    background-image: url("Images/bg-1.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
