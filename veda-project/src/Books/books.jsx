@@ -62,20 +62,19 @@ const Books = () => {
     ];
 
     return (
-        <div className="container">
+        <div className="books-container">
             {books.map((book, index) => (
-                <div className="card" key={index}>
-                    <div className="card-front">
-                        <br />
-                        <div className="card-front-image">
+                <div className="books-card" key={index}>
+                    <div className="books-card-front">
+                        <div className="books-card-front-image">
                             <img src={book.imgSrc} alt={`Book ${index + 1}`} />
                         </div>
                     </div>
-                    <div className="card-back">
-                        <div className="card-back-image">
-                            {book.description}
+                    <div className="books-card-back">
+                        <div className="books-card-back-image">
+                            <p>{book.description}</p>
                             <a href={book.link} target="_blank" rel="noopener noreferrer">
-                                <button id="btn">Buy Now</button>
+                                <button id="books-btn">Buy Now</button>
                             </a>
                         </div>
                     </div>

@@ -7,8 +7,8 @@ import Diseases from './body-types/Diseases';
 import KaphaBodyType from './body-types/KaphaBodyType';
 import Vata from './body-types/VataBodyType';
 import Pitta from './body-types/PittaBodyType';
-import Books from "./Books/Books";
 import DigestiveSystem from "./Digestive/DigestiveSystem";
+import Books from "./Books/Books";
 
 
 const App = () => {
@@ -24,8 +24,8 @@ const App = () => {
           <Route path="/kapha" element={<KaphaBodyType />} />
           <Route path="/vata" element={<Vata />} />
           <Route path="/pitta" element={<Pitta />} />
-          <Route path="/books" element={<Books />} />
           <Route path="/digestive" element={<DigestiveSystem />} />
+          <Route path="/books" element={<Books/>} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
