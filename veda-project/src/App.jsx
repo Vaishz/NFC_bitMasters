@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import AboutUs from './Aboutus/AboutUs';
-import Alternatives from './Alternatives/Alternatives';
+import Alternatives from "./Alternatives/Alternatives"
 import Diseases from './body-types/Diseases';
 import KaphaBodyType from './body-types/KaphaBodyType';
 import Vata from './body-types/VataBodyType';

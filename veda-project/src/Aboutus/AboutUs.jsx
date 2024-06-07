@@ -20,15 +20,15 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="card-container">
-      <div id="title"></div>
+    <div className="abo_card-container">
+      <div id="abo_title"></div>
 
       {/* Vaishnavi Card */}
-      <div className="card">
-        <div className="card-img-container">
+      <div className="abo_card">
+        <div className="abo_card-img-container">
           <img src={VaishnaviImage} alt="Vaishnavi" />
         </div>
-        <div className="details">
+        <div className="abo_details">
           <h2>Name: Vaishnavi Poti</h2>
           <br />
           <h3>Age: 19</h3>
@@ -50,11 +50,11 @@ const AboutUs = () => {
       </div>
 
       {/* Ashmit Card */}
-      <div className="card">
-        <div className="card-img-container">
+      <div className="abo_card">
+        <div className="abo_card-img-container">
           <img src={AshmitImage} alt="Ashmit" />
         </div>
-        <div className="details">
+        <div className="abo_details">
           <h2>Name: Ashmit Srivastava</h2>
           <br />
           <h3>Age: 19</h3>
@@ -76,11 +76,11 @@ const AboutUs = () => {
       </div>
 
       {/* Dhruv Card */}
-      <div className="card">
-        <div className="card-img-container">
+      <div className="abo_card">
+        <div className="abo_card-img-container">
           <img src={DhruvImage} alt="Dhruv" />
         </div>
-        <div className="details">
+        <div className="abo_details">
           <h2>Name: Dhruv Tater</h2>
           <br />
           <h3>Age: 19</h3>
@@ -102,11 +102,11 @@ const AboutUs = () => {
       </div>
 
       {/* Shweta Card */}
-      <div className="card">
-        <div className="card-img-container">
+      <div className="abo_card">
+        <div className="abo_card-img-container">
           <img src={ShwetaImage} alt="Shweta" />
         </div>
-        <div className="details">
+        <div className="abo_details">
           <h2>Name: Shweta Sidhwani</h2>
           <br />
           <h3>Age: 19</h3>

@@ -4,7 +4,7 @@ import './alternatives.css';
 
 const Alternatives = () => {
     return (
-        <div className="container">
+        <div className="alt_container">
             {[
                 {
                     dontChoose: "Dettol",
@@ -97,18 +97,18 @@ const Alternatives = () => {
                     chooseImage: "Images/alt15.webp"
                 }
             ].map((item, index) => (
-                <div className="card" key={index}>
-                    <div className="card-front">
+                <div className="alt_card" key={index}>
+                    <div className="alt_card-front">
                         <h2>Don't Choose This</h2>
                         <br />
-                        <div className="card-front-image">
+                        <div className="alt_card-front-image">
                             <img src={item.dontChooseImage} alt={item.dontChoose} />
                         </div>
                         <h2>{item.dontChoose}</h2>
                     </div>
-                    <div className="card-back">
+                    <div className="alt_card-back">
                         <h2>Choose This</h2>
-                        <div className="card-back-image">
+                        <div className="alt_card-back-image">
                             <img src={item.chooseImage} alt={item.choose} />
                         </div>
                         <h2>{item.choose}</h2>
