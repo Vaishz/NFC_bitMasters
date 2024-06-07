@@ -10,6 +10,7 @@ import Pitta from './body-types/PittaBodyType';
 import Books from "./Books/Books";
 import DigestiveSystem from "./Digestive/DigestiveSystem";
 
+
 const App = () => {
   return (
     <>
@@ -20,11 +21,11 @@ const App = () => {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/alternatives" element={<Alternatives />} />
           <Route path="/diseases" element={<Diseases />} />
-          <Route path="/kapha-body-type" element={<KaphaBodyType />} />
-          <Route path="/vata-body-type" element={<Vata />} />
-          <Route path="/pitta-body-type" element={<Pitta />} />
+          <Route path="/kapha" element={<KaphaBodyType />} />
+          <Route path="/vata" element={<Vata />} />
+          <Route path="/pitta" element={<Pitta />} />
           <Route path="/books" element={<Books />} />
-          <Route path="/digestive-system" element={<DigestiveSystem />} />
+          <Route path="/digestive" element={<DigestiveSystem />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
