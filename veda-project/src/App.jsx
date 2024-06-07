@@ -8,9 +8,7 @@ import KaphaBodyType from './body-types/KaphaBodyType';
 import Vata from './body-types/VataBodyType';
 import Pitta from './body-types/PittaBodyType';
 import Books from "./Books/Books";
-import CustomerExperiences from './CustomerExperiences';
-import DigestiveSystem from './DigestiveSystem';
-import Doctors from './Doctors';
+import DigestiveSystem from "./Digestive/DigestiveSystem";
 
 const App = () => {
   return (
@@ -26,9 +24,7 @@ const App = () => {
           <Route path="/vata-body-type" element={<Vata />} />
           <Route path="/pitta-body-type" element={<Pitta />} />
           <Route path="/books" element={<Books />} />
-          <Route path="/customer-experience" element={<CustomerExperiences />} />
           <Route path="/digestive-system" element={<DigestiveSystem />} />
-          <Route path="/doctors" element={<Doctors />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
