@@ -1,7 +1,6 @@
 import React from 'react';
 import './alternatives.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 
 const Alternatives = () => {
     return (
