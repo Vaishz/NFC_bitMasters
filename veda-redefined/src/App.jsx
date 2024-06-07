@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Form } from "react-router-dom";
 import Home from "./Home/Home";
+import AboutUs from "../Aboutus/AboutUs";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         {/* <Header /> */}
           <Routes>           
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs/>} />
           </Routes>
       </BrowserRouter>
      {/* <Footer /> */}

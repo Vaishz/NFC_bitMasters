@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './aboutus.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
 import Typed from 'typed.js';
+import VaishnaviImage from './Images/Vaishnavi.jpg';
+import AshmitImage from './Images/ash.jpeg';
+import DhruvImage from './Images/druve.jpeg';
+import ShwetaImage from './Images/shewta.jpeg';
 
-class AboutUs extends React.Component {
+class AboutUs extends Component {
     componentDidMount() {
         new Typed('#title', {
             strings: ['About Us'],
@@ -18,9 +20,10 @@ class AboutUs extends React.Component {
             <div className="card-container">
                 <div id="title"></div>
 
+                {/* Vaishnavi Card */}
                 <div className="card">
                     <div className="card-img-container">
-                        <img src="Images/Vaishnavi.jpg" alt="Vaishnavi" />
+                        <img src={VaishnaviImage} alt="Vaishnavi" />
                     </div>
                     <div className="details">
                         <h2>Name: Vaishnavi Poti</h2>
@@ -30,21 +33,23 @@ class AboutUs extends React.Component {
                         <h4>Hobbies: Singing</h4>
                         <h5>
                             <a href="https://github.com/Vaishz" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} id="v-git" />
+                                <FaGithub id="v-git" />
                             </a>
                             <a href="https://www.linkedin.com/in/vaishnavi-poti" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} id="v-link" />
+                                <FaLinkedin id="v-link" />
                             </a>
                             <a href="mailto:vaishnavi@example.com">
-                                <FontAwesomeIcon icon={faEnvelope} id="v-mail" />
+                                <FaEnvelope id="v-mail" />
                             </a>
+                            <FaTwitter id="v-twitter" />
                         </h5>
                     </div>
                 </div>
 
+                {/* Ashmit Card */}
                 <div className="card">
                     <div className="card-img-container">
-                        <img src="Images/ash.jpeg" alt="Ashmit" />
+                        <img src={AshmitImage} alt="Ashmit" />
                     </div>
                     <div className="details">
                         <h2>Name: Ashmit Srivastava</h2>
@@ -54,21 +59,23 @@ class AboutUs extends React.Component {
                         <h4>Hobbies: Reading</h4>
                         <h5>
                             <a href="https://github.com/Ashmit" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} id="a-git" />
+                                <FaGithub id="a-git" />
                             </a>
                             <a href="https://www.linkedin.com/in/ashmit-srivastava" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} id="a-link" />
+                                <FaLinkedin id="a-link" />
                             </a>
                             <a href="mailto:ashmit@example.com">
-                                <FontAwesomeIcon icon={faEnvelope} id="a-mail" />
+                                <FaEnvelope id="a-mail" />
                             </a>
+                            <FaTwitter id="a-twitter" />
                         </h5>
                     </div>
                 </div>
 
+                {/* Dhruv Card */}
                 <div className="card">
                     <div className="card-img-container">
-                        <img src="Images/druve.jpeg" alt="Dhruv" />
+                        <img src={DhruvImage} alt="Dhruv" />
                     </div>
                     <div className="details">
                         <h2>Name: Dhruv Tater</h2>
@@ -78,21 +85,23 @@ class AboutUs extends React.Component {
                         <h4>Hobbies: Gaming</h4>
                         <h5>
                             <a href="https://github.com/Dhruv" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} id="d-git" />
+                                <FaGithub id="d-git" />
                             </a>
                             <a href="https://www.linkedin.com/in/dhruv-tater" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} id="d-link" />
+                                <FaLinkedin id="d-link" />
                             </a>
                             <a href="mailto:dhruv@example.com">
-                                <FontAwesomeIcon icon={faEnvelope} id="d-mail" />
+                                <FaEnvelope id="d-mail" />
                             </a>
+                            <FaTwitter id="d-twitter" />
                         </h5>
                     </div>
                 </div>
 
+                {/* Shweta Card */}
                 <div className="card">
                     <div className="card-img-container">
-                        <img src="Images/shewta.jpeg" alt="Shweta" />
+                        <img src={ShwetaImage} alt="Shweta" />
                     </div>
                     <div className="details">
                         <h2>Name: Shweta Sidhwani</h2>
@@ -102,14 +111,15 @@ class AboutUs extends React.Component {
                         <h4>Hobbies: Drawing</h4>
                         <h5>
                             <a href="https://github.com/Shweta" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} id="s-git" />
+                                <FaGithub id="s-git" />
                             </a>
                             <a href="https://www.linkedin.com/in/shweta-sidhwani" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} id="s-link" />
+                                <FaLinkedin id="s-link" />
                             </a>
                             <a href="mailto:shweta@example.com">
-                                <FontAwesomeIcon icon={faEnvelope} id="s-mail" />
+                                <FaEnvelope id="s-mail" />
                             </a>
+                            <FaTwitter id="s-twitter" />
                         </h5>
                     </div>
                 </div>
