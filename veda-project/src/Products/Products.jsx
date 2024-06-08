@@ -1,5 +1,6 @@
 import React from 'react';
 import './products.css';
+import productsData from './products.json';
 
 function Products() {
   return (
@@ -9,19 +10,23 @@ function Products() {
       </header>
 
       <div className="container">
-        <div className="card">
-          <div className="image-container">
-            <img src="pr1.jpg" alt="Ambic Smart&Slim" />
+        {productsData.products.map(product => (
+          <div className="card" key={product.id}>
+            <div className="image-container">
+              <img src={product.image} alt={product.name} />
+            </div>
+            <div className="content">
+              <h5>{product.name}</h5>
+              <p>{product.description}</p>
+              <h3>{product.price}</h3>
+              <button>
+                <a target="_blank" rel="noopener noreferrer" href={product.buyLink}>
+                  Buy Now!
+                </a>
+              </button>
+            </div>
           </div>
-          <div className="content">
-            <h5>Ambic Smart&Slim</h5>
-            <p>Ambic Smart and Slim weightloss capsule</p>
-            <h3>₹1,109</h3>
-            <button><a target="_blank" href="https://www.amazon.in/Ayurvedic-Medicine-Management-Garcinia-Cambogia/dp/B0BRMXYFJK/ref=sr_1_6?keywords=ayurvedic%2Bmedicine%2Bfor%2Bweight%2Bloss&sr=8-6&th=1">Buy Now!</a></button>
-          </div>
-        </div>
-        
-        {/* Add other product cards here */}
+        ))}
       </div>
     </div>
   );
