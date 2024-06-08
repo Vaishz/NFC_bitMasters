@@ -1,7 +1,7 @@
 import React from "react";
 import "./Digestive.css";
 
-function DigestiveSystem() {
+function Digestive() {
   return (
     <div>
       <div className="bg-image"></div>
@@ -15,4 +15,4 @@ function DigestiveSystem() {
   );
 }
 
-export default DigestiveSystem;
+export default Digestive;

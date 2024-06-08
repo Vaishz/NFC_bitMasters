@@ -20,31 +20,32 @@ const Diseases = () => {
             </div>
 
             <div className="disease">
-                <div className="h1" id="title">
+                <div className="h1" id="dis_title">
                     ASTHAMA
                 </div>
                 <div className="info">
                     Asthma is a chronic respiratory condition characterized by inflammation and narrowing of the airways,
                     leading to symptoms such as shortness of breath, wheezing, coughing, and chest tightness. While there is no
                     known cure for asthma in conventional medicine, Ayurveda, a holistic system of medicine originating from
-                    India, offers approaches that aim to manage and alleviate asthma symptoms.
-                    Ayurveda offers holistic approaches to manage asthma symptoms:<br />
+                    India, offers approaches that aim to manage and alleviate asthma symptoms. <br /><br />
+                    Ayurveda offers holistic approaches to manage asthma symptoms:<br /><br />
+                    <ul>
+                    <li><b>Balancing Doshas:</b> Ayurveda aims to restore dosha balance through personalized dietary and lifestyle changes.</li>
 
-                    Balancing Doshas: Ayurveda aims to restore dosha balance through personalized dietary and lifestyle changes.<br />
+                    <li><b>Breathing Techniques:</b> Pranayama exercises improve lung function and promote healthy breathing patterns.</li>
 
-                    Breathing Techniques: Pranayama exercises improve lung function and promote healthy breathing patterns.<br />
+                    <li><b>Herbal Remedies:</b> Ayurvedic herbs like turmeric and ginger have anti-inflammatory properties to ease airway
+                    inflammation.</li>
 
-                    Herbal Remedies: Ayurvedic herbs like turmeric and ginger have anti-inflammatory properties to ease airway
-                    inflammation.<br />
+                    <li><b>Dietary Guidance:</b> Ayurveda recommends warm, easily digestible foods and avoids trigger foods.</li>
 
-                    Dietary Guidance: Ayurveda recommends warm, easily digestible foods and avoids trigger foods.<br />
+                    <li><b>Stress Reduction:</b> Stress-reduction techniques like meditation and yoga can help manage asthma triggers.</li>
 
-                    Stress Reduction: Stress-reduction techniques like meditation and yoga can help manage asthma triggers.<br />
+                    <li><b>Detoxification:</b> Panchakarma detox therapies may remove toxins contributing to asthma.</li>
+                    </ul>
 
-                    Detoxification: Panchakarma detox therapies may remove toxins contributing to asthma.<br />
-
-                    Ayurveda doesn't promise a cure but can complement conventional asthma management. Consult a healthcare
-                    professional before trying Ayurvedic treatments.<br />
+                    <div id="dis_quote">Ayurveda doesn't promise a cure but can complement conventional asthma management. Consult a healthcare
+                    professional before trying Ayurvedic treatments.</div><br />
                 </div>
 
                 <div className="videos">
