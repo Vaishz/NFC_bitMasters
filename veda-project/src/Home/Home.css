@@ -21,22 +21,19 @@
 .head-2
 {
     background-color:transparent;
+    font-size: 3rem;
+    position: relative;
 }
 
 .head-2 span
 {
-background-color: #024315;
+background-color: #000000;
 font-family: 'Teko', sans-serif;
+color:white;
 }
 
-.head-2 
-{
-    font-size: 4rem;
-    position: relative;
-}
-
-.head-2 h2{
-    color: rgb(255, 255, 255);
+.switch-to{
+    color: rgb(0, 0, 0);
 }
 
 .reasons {

@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <>
       <div className="head-1">
-        <h1>Are you tired of <span id="type"></span></h1>
+        <h1>Are you tired of <span id="type">Fatigue</span></h1>
       </div>
 
       <div className="head-2">
         <div className="image-container">
           <img src="Images/bg-1.jpg" alt="Background"/>
         </div>
-        <h2>SWITCH TO <span>AYURVEDA!</span></h2>
+        <h2 className='switch_to'>SWITCH TO <span> AYURVEDA!</span></h2>
       </div>
 
       <h2 id="ans">Here's why you should too:</h2>
@@ -31,9 +31,7 @@ const Home = () => {
         <h1>Holistic Wellness</h1>
       </div>
 
-      <div className="copy">
-        <h2>© [2023] bitMasters. All Rights Reserved.</h2>
-      </div>
+      
     </>
   );
 }
