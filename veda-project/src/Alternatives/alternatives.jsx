@@ -1,7 +1,6 @@
 import React from 'react';
 import './alternatives.css';
 
-
 const Alternatives = () => {
     return (
         <div className="alt_container">
@@ -98,20 +97,21 @@ const Alternatives = () => {
                 }
             ].map((item, index) => (
                 <div className="alt_card" key={index}>
-                    <div className="alt_card-front">
-                        <h2>Don't Choose This</h2>
-                        <br />
-                        <div className="alt_card-front-image">
-                            <img src={item.dontChooseImage} alt={item.dontChoose} />
+                    <div className="alt_card-inner">
+                        <div className="alt_card-front">
+                            <h2>Don't Choose This</h2>
+                            <div className="alt_card-front-image">
+                                <img src={item.dontChooseImage} alt={item.dontChoose} />
+                            </div>
+                            <h2>{item.dontChoose}</h2>
                         </div>
-                        <h2>{item.dontChoose}</h2>
-                    </div>
-                    <div className="alt_card-back">
-                        <h2>Choose This</h2>
-                        <div className="alt_card-back-image">
-                            <img src={item.chooseImage} alt={item.choose} />
+                        <div className="alt_card-back">
+                            <h2>Choose This</h2>
+                            <div className="alt_card-back-image">
+                                <img src={item.chooseImage} alt={item.choose} />
+                            </div>
+                            <h2>{item.choose}</h2>
                         </div>
-                        <h2>{item.choose}</h2>
                     </div>
                 </div>
             ))}

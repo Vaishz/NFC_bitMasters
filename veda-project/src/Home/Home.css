@@ -44,7 +44,7 @@ color:white;
     background-color:transparent;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
   }
   
   .reasons h1 {
@@ -65,7 +65,7 @@ color:white;
     background-color:transparent;
     align-items: center;
     justify-content: center;
-    color: rgb(245, 224, 192);
+    color: rgb(196, 126, 21);
   }
 
   .image-container
