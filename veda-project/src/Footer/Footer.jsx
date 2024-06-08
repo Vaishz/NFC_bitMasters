@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css"; 
+import Logo from '../Images/logo.png';
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
         <div className="row">
           {/* text and logo */}
           <div className="cols">
-            <img src="logo.png" className="logo" alt="Logo" />
+            <img src={Logo} id="flogo" alt="Logo" />
             <div className="content">
               "Veda Redefined" is a website dedicated to offering Ayurvedic alternatives and solutions to modern pharmaceutical drugs.
             </div>

@@ -9,7 +9,7 @@ import ShwetaImage from './Images/shewta.jpeg';
 
 const AboutUs = () => {
   useEffect(() => {
-    const typed = new Typed('#abo_title', { // Corrected selector here
+    const typed = new Typed('#abo_title', { 
       strings: ['About Us'],
       typeSpeed: 50,
     });
