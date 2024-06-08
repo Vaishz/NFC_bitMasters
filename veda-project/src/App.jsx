@@ -11,6 +11,7 @@ import Alternatives from "./Alternatives/Alternatives"
 // import Pitta from './body-types/PittaBodyType';
 // import DigestiveSystem from "./Digestive/DigestiveSystem";
 // import Books from "./Books/Books";
+import Products from "./Products/Products";
 
 
 const App = () => {
@@ -20,8 +21,10 @@ const App = () => {
         {<Navbar/>}
         <Routes>
         <Route path="/" element={<Home/>} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/alt" element={<Alternatives/>} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/alternatives" element={<Alternatives />} />
+        <Route path="/products" element={<Products />} />
+
 
         </Routes>
       </BrowserRouter>
