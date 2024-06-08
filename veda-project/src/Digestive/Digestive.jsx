@@ -49,4 +49,4 @@ function Digestive() {
   );
 }
 
-export default DigestiveSystem;
+export default Digestive;
