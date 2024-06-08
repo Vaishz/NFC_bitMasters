@@ -9,15 +9,16 @@ import ShwetaImage from './Images/shewta.jpeg';
 
 const AboutUs = () => {
   useEffect(() => {
-    const typed = new Typed('#title', {
+    const typed = new Typed('#abo_title', { // Corrected selector here
       strings: ['About Us'],
       typeSpeed: 50,
     });
-
+  
     return () => {
-      typed.destroy(); // Cleanup typed instance on component unmount
+      typed.destroy(); // Using the correct instance to destroy
     };
   }, []);
+  
 
   return (
     <div className="abo_card-container">
