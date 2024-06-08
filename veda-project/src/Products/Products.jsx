@@ -9,13 +9,13 @@ function Products() {
         <h1>Shop Healthy!</h1>
       </header>
 
-      <div className="container">
+      <div className="prod-container">
         {productsData.products.map(product => (
-          <div className="card" key={product.id}>
-            <div className="image-container">
+          <div className="prod-card" key={product.id}>
+            <div className="prod-image-container">
               <img src={product.image} alt={product.name} />
             </div>
-            <div className="content">
+            <div className="prod-content">
               <h5>{product.name}</h5>
               <p>{product.description}</p>
               <h3>{product.price}</h3>
