@@ -5,18 +5,18 @@ import Footer from "./Footer/Footer";
 import Home from "./Home/Home";
 import AboutUs from './Aboutus/AboutUs'
 import Alternatives from "./Alternatives/Alternatives"
-//import Diseases from './body-types/Diseases';
 //import KaphaBodyType from './body-types/KaphaBodyType';
 //import Vata from './body-types/VataBodyType';
-// import DigestiveSystem from "./Digestive/DigestiveSystem";
 // import Books from "./Books/Books";
+//import PittaBodyType from "./body-types/PittaBodyType";
 import Products from "./Products/Products";
 import Diseases from "./body-types/Diseases";
 import Digestive from "./Digestive/Digestive";
 import CustomerExperiences from './CustomerExperiences/CustomerExperiences'
 import Doctor from "./Doctor/Doctor";
-//import PittaBodyType from "./body-types/PittaBodyType";
-//import Digestive from "./Digestive/Digestive";
+import FAQ from "./FAQ/FAQ";
+import Services from "./Services/Services";
+
 
 
 
@@ -34,7 +34,8 @@ const App = () => {
         <Route path="/digestive" element={<Digestive />} />
         <Route path="/customer" element={<CustomerExperiences />} />
         <Route path="/doctor" element={<Doctor />} />
-
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/services" element={<Services />} />
         {/* <Route path="/kapha" element={<KaphaBodyType />} /> */}
         {/* <Route path="/pitta" element={<PittaBodyType />} /> */}
 
