@@ -17,6 +17,7 @@ import Doctor from "./Doctor/Doctor";
 import FAQ from "./FAQ/FAQ";
 import Services from "./Services/Services";
 import Skin from "./Skin/Skin";
+import MassageMaps from './Map/MassageMap'
 
 
 
