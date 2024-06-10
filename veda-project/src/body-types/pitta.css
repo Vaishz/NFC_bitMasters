@@ -1,32 +1,23 @@
-body {
-    font-family: 'Source Sans 3', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    margin: 0;
-    padding: 0;
+.pitta-container {
+    background-color: #f7d9ba;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-
-.container {
-    background-color: #f7d9ba;
+    justify-content: center;
     color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 
-header {
+.pitta-header {
     background-color: #333;
     text-align: center;
     padding: 20px;
     border-radius: 15px 15px 0 0;
 }
 
-header h1 {
+.pitta-header h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 48px;
     text-transform: uppercase;
@@ -35,16 +26,17 @@ header h1 {
     color: #ff8c00;
     border-radius: 5rem;
 }
-.images{
+
+.pitta-images {
     display: flex;
     flex-direction: column;
     transform: translateX(30%);
 }
-.images img{
+
+.pitta-images img {
+
     width: 40%;
     height: 40%;
-    display: flex;
-    flex-direction: column;
 }
 
 #pitarot {
@@ -55,7 +47,6 @@ header h1 {
     0% {
         transform: rotate(0deg);
     }
-
     100% {
         transform: rotate(360deg);
     }
@@ -70,17 +61,15 @@ header h1 {
     0% {
         transform: translateY(0px);
     }
-
     50% {
         transform: translateY(-100px);
     }
-    
     100% {
         transform: translateY(0px);
     }
 }
 
-.content {
+.pitta-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +77,7 @@ header h1 {
     text-align: center;
 }
 
-.intro {
+.pitta-intro {
     background-color: #df5b19;
     padding: 20px;
     text-align: center;
@@ -96,7 +85,7 @@ header h1 {
     margin-top: 20px;
 }
 
-.description {
+.pitta-description {
     background-color: #f7ca02;
     padding: 20px;
     text-align: justify;
@@ -105,7 +94,7 @@ header h1 {
     font-size: large;
 }
 
-.signs {
+.pitta-signs {
     background-color: #c6322f;
     padding: 20px;
     text-align: left;
@@ -113,7 +102,7 @@ header h1 {
     margin: 20px;
 }
 
-.problems {
+.pitta-problems {
     background-color: #f3ac06;
     padding: 20px;
     text-align: left;
@@ -121,142 +110,39 @@ header h1 {
     margin-bottom: 20px;
 }
 
-h2 {
+.pitta-problems h2 {
     font-size: 32px;
     margin-bottom: 10px;
 }
 
-ul {
+.pitta-problems ul {
     list-style-type: circle;
     padding-left: 20px;
 }
 
-li {
+.pitta-problems li {
     font-size: 18px;
     margin: 5px 0;
 }
 
-footer .maincontainer {
-    background-color: black;
-}
-
-.row{
-    display: flex;
-    justify-content: space-evenly ;
-    
-    color: #fff;
-    padding: 4rem 4rem;
-}
-
-img{
-    width: 7rem;
-    height: 7rem;
-}
-.content{
-    display: block;
-    position: relative;
-    margin-right: 25px;
-
-}
-.cols{
-    margin: 5px 5rem;
-    row-gap: 5px;
-}
-.cols ul{
-    list-style: none;
-
-} 
-.cols h4{
-    color: white;
-    font-size: 25px;
-    margin-bottom: 40px;
-    position: relative;
-    width: 100px;
-    text-transform: uppercase;
-}
-
-footer .cols ul li a{
-    color: #fff;
-    /* line-height: 1rem;     to try to keep the line height betweent the elements */  
-    /* padding: 5px 5px; */
-    text-decoration: none;
-    font-size: 1rem;
-    opacity:0.6;
-    transition: 0.65s;
-}
-
-footer .cols ul li{
-    padding: 5px 5px;
-}
-
-footer .cols ul li a:hover{
-    font-size: 1.5rem;
-    opacity: 1;
-    border-bottom: 1px solid white;
-}
-hr{
-    width: 90%;
-    border: 0;
-    border-bottom: 1px solid #fff;
-}
-
-.underline{
-    width: 100%;
-    margin-top: 0.5rem;
-    height: 5px;
-    background: #767676;
-    border-radius: 3px;
-    position: absolute;
-    top: 25px;
-    left: 0;
-    margin-bottom: 1rem;
-}
-.underline span{
-    width: 15px;
-    height: 100%;
-    background-color: #ffffff;
-    border-radius: 4px;
-    position: absolute;
-    top: 0;
-    left: 12px;
-    animation: moving 2s linear infinite;
-}
-
-
-@keyframes moving {
-    0%{
-        left: 0px;
+/* Animation keyframes */
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
     }
-    100%{
-        left: 100%;
+    100% {
+        transform: rotate(360deg);
     }
-    
-}
-/* 
-.row{
-    border-bottom: 2px solid #fff;
-} */
-
-.copy
-{
-    bottom: 20;
-    width: 95vw;
-    margin-left: 30px;
-    height: 2px;
-    background-color:#ffffff ;
-    transform: translateY(-60px);
-}
-.copy h2{
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    /* margin-top: 1rem; */
-    padding-top: 10px;
 }
 
-.footer{
-    top: 100;
-    bottom: 0;
-    position: absolute;
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
-

@@ -3,7 +3,7 @@ import './vata.css';
 
 const VataBodyType = () => {
     return (
-        <div>
+        <div className="vata">
 
             <div className="font-effect-emboss">
                 <h1>The Vata Body-Type</h1><br />
