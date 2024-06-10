@@ -1,93 +1,72 @@
 
-body, html {
-    height: 100%;
-    
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .bg-image {
-    /* The image used */
-    background-image: url("images/skin_bg.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: rgb(42, 79, 49);
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-  }
 
-
-h1{
-    color: rgb(123, 157, 93);
-    font-family: 'Bebas Neue';
-    font-size: 500%;
-    text-align: center;
+.skin-bg-image {
+  background-image: url("images/skin_bg.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h2{
-    color: rgb(123, 157, 93);
-    font-family: 'Source Sans 3';
-    font-size: 30px;
-}
-
-#content {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-#btn {
-  border: none;
-  color: rgb(0, 0, 0);
-  /* padding: 15px 32px; */
+.skin-bg-text {
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.31); 
+  color: rgb(22, 28, 18);
+  font-weight: bold;
+  border: 3px solid #000000;
+  position: relative;
+  width: 80%;
+  padding: 20px;
+  justify-content: center;
   text-align: center;
-  text-decoration: none;
-  display: inline;
-  font-size: 16px;
-  width: 100px;
-  height: 40px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  align-content: center;
-  border-radius: 15px;
-  display: flex;
+  margin-left: 10rem;
 }
 
-#btn {
-  background-color: rgb(255, 255, 255); 
-  color: black; 
-  border: 1px solid #000000;
+#skin-h1 {
+  font-size: 2.5rem;
+  color: rgb(22, 28, 18);
+  font-family: 'Bebas Neue';
+  font-size: 5rem;
+  text-align: center;
 }
 
-#btn:hover {
-  background-color: #e7b64c;
-  color: white;
+.skin-h2 {
+  color: rgb(22, 28, 18);
+  font-family: 'Source Sans 3';
+  font-size: 30px;
 }
+
+#skin-content {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.skin-content-sec{
+  padding-top: 50px;
+  border-top:2px solid black;
+}
+
+.skin-btn {
+background-color: #c9cc8a;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+color: rgb(14, 43, 2); 
+border: 1px solid #000000;
+text-decoration:none;
+}
+
+.skin-btn:hover {
+background-color: #304630;
+color: rgb(107, 144, 108);
+text-decoration: none;
+}
+

@@ -16,6 +16,7 @@ import CustomerExperiences from './CustomerExperiences/CustomerExperiences'
 import Doctor from "./Doctor/Doctor";
 import FAQ from "./FAQ/FAQ";
 import Services from "./Services/Services";
+import Skin from "./Skin/Skin";
 
 
 
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/doctor" element={<Doctor />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/skin" element={<Skin />} />
         {/* <Route path="/kapha" element={<KaphaBodyType />} /> */}
         {/* <Route path="/pitta" element={<PittaBodyType />} /> */}
 
