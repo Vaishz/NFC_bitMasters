@@ -14,6 +14,7 @@ import Products from "./Products/Products";
 import Diseases from "./body-types/Diseases";
 import Digestive from "./Digestive/Digestive";
 import CustomerExperiences from './CustomerExperiences/CustomerExperiences'
+import Doctor from "./Doctor/Doctor";
 //import PittaBodyType from "./body-types/PittaBodyType";
 //import Digestive from "./Digestive/Digestive";
 
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/diseases" element={<Diseases />} />
         <Route path="/digestive" element={<Digestive />} />
         <Route path="/customer" element={<CustomerExperiences />} />
+        <Route path="/doctor" element={<Doctor />} />
 
         {/* <Route path="/kapha" element={<KaphaBodyType />} /> */}
         {/* <Route path="/pitta" element={<PittaBodyType />} /> */}

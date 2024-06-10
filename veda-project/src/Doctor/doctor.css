@@ -1,22 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 
-body {
-    background-color: #f0f0f0;
-}
-
-header {
+.dr_header {
     text-align: center;
     padding: 20px;
     background-color: #A53F2B;
     color: white;
 }
 
-.container {
+.dr_container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -25,25 +15,24 @@ header {
     padding: 20px;
 }
 
-.bg-container {
+.dr_bg-container {
     width: 100vw;
     height: auto;
     position: relative;
     display: flex;
 }
 
-.bg-container img {
+.dr_bg-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: blur(5px);
 }
 
-.card-container {
+.dr_card-container {
     width: 100vw;
     height: 100%; 
     margin: 1.5rem;
-    position: absolute;
     display: flex;
     padding: 2rem;
     display: flex;
@@ -52,7 +41,7 @@ header {
     background-color: transparent;
 }
 
-.card {
+.dr_card {
     width: 500px;
     height: 300px;
     background-color: #F0FFCE;
@@ -66,38 +55,38 @@ header {
     margin: 1rem;
 }
 
-.card:hover {
+.dr_card:hover {
     transform: scale(1.05);
 }
 
-.image-container {
+.dr_image-container {
     height: 200px;
     width: 200px;
     overflow: hidden;
     margin-top: 25px;
 }
 
-.image-container img {
+.dr_image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.content {
+.dr_content {
     padding: 20px;
 }
 
-h2 {
+.dr_content h2 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-h3 {
+.dr_content h3 {
     font-size: 1.5rem;
     margin-bottom: 5px;
 }
 
-button {
+.dr_btn {
     width: 100%;
     height: 40px;
     background-color: #A53F2B;
@@ -108,7 +97,7 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.dr_btn:hover {
     background-color: #852D1E;
 }
 
