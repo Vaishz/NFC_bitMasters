@@ -31,14 +31,14 @@ function Skin() {
         <div id="skin-bodytypes">
           <div id="skin-type">
             <h4>Vata Dosha</h4><br />
-            With <a href="body-types/vata.html">vata skin type</a>, the skin is more likely to be rough and dry, requiring regular moisturising. Moisturisers
+            With vata skin type, the skin is more likely to be rough and dry, requiring regular moisturising. Moisturisers
             with a certain amount of oil in them perform wonderfully for this skin type. For this skin condition,
             Ashwagandha supplements are also indicated.
           </div>
           <br /><br />
           <div id="skin-type">
             <h4>Pitta Dosha</h4><br />
-            The <a href="body-types/pitta.html">pitta skin type</a> is diametrically opposed to that of a Vata-dominant Dosha. When Pitta is the
+            The pitta skin type is diametrically opposed to that of a Vata-dominant Dosha. When Pitta is the
             dominant Dosha,
             the person's skin might be greasy, and they are more susceptible to allergies and a range of skin disorders.
             Cooling treatments, such as Sandalwood, Aloe Vera, should be utilised on this type of skin.
@@ -46,7 +46,7 @@ function Skin() {
           <br /><br />
           <div id="skin-type">
             <h4>Kapha Dosha</h4><br />
-            The <a href="body-types/kapha.html">Kapha skin type</a> is quite similar to that of a Pitta person. Oily skin is prone to acne and other skin
+            The Kapha skin type is quite similar to that of a Pitta person. Oily skin is prone to acne and other skin
             concerns. This skin type benefits greatly from exfoliation. There are different names which are more common
             that one might be aware of. Following are the simplified and popular terms for these skin types.
             </div>
