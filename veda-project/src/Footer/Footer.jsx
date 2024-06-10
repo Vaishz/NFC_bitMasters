@@ -48,7 +48,7 @@ function Footer() {
         </div>
       </div>
       <div className="copy">
-        <h2>© [2023] bitMasters. All Rights Reserved.</h2>
+        <h2> @2024 Veda Refined. All rights reserved.</h2>
       </div>
     </footer>
   );
