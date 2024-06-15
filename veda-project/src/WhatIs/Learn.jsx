@@ -3,12 +3,12 @@ import './learn.css';
 
 function Learn() {
   return (
-      <body id='learn-body'>
-        <div class="container">
+      <body id='learn'>
+        <div class="learn-container">
           <div id='learn-head'>
             WHAT IS AYRUVEDA
           </div>
-          <div class="p1">
+          <div class="learn-p1">
             Ayurveda is a traditional system of medicine that has its roots in India and is one of the world's oldest holistic
             healing systems. The term "Ayurveda" is derived from the Sanskrit words "ayur," which means life, and "veda," which
             means science or knowledge. Therefore, Ayurveda can be translated as the "science of life" or the "knowledge of life."
@@ -19,10 +19,10 @@ function Learn() {
             are channels (srotas) which transport fluids, and that the channels can be opened up by massage treatment using oils
             and Swedana (fomentation). Unhealthy, or blocked, channels are thought to cause disease.
           </div>
-          <h2>
+          <h2 className='learn-h2'>
             <b>Key principles and concepts of Ayurveda include:</b>
           </h2>
-          <p>
+          <p className='learn-p2'>
             <ol>
               <li>
                 Doshas: Ayurveda categorizes individuals into three primary constitutional types or doshas: Vata, Pitta, and

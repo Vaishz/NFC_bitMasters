@@ -3,27 +3,27 @@
     border-bottom: 5px solid black;
     padding-bottom: 0.1rem;
     margin-bottom: 1rem;
-    margin-right: 71rem;
+    margin-right: 65rem;
 }
-.p1{
-    font-size: 17px;
-    width: 95vw;
-}
-h2{
-    font-size: 20px;
-}
-
-.container{
-    width: 95vw;
-    height: auto;
-    word-wrap: none;
-    margin-left: 50px;
+.learn-p1{
+    font-size: 1.2rem;
     
 }
+.learn-h2{
+    margin-top: 1rem;
+}
 
-#learn-body{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.learn-p2{
+    margin-top: 1rem;
+    font-size:1.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.learn-container{
+    word-wrap: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
   
