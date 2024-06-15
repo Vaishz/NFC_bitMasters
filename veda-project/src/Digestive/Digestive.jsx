@@ -1,11 +1,15 @@
-
+import React from 'react';
+import './Digestive.css';
+import Dig1 from './Images/bg_img.jpg';
+import Dig2 from './Images/Digestive_System.jpg';
 
 function Digestive() {
   return (
     <>
       <div className="dig-digestive-system">
-        <div className="dig-bg-image"></div>
-
+        <div className="dig-bg-image">
+          <img src={Dig1}/>
+        </div>
 
         <div className="dig-content">
           <section className="dig-introduction">
