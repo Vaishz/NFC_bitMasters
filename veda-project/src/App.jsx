@@ -44,7 +44,6 @@ const App = () => {
         <Route path="/vata" element={<VataBodyType />} />
         <Route path="/massage" element={<MassageMaps />} />
 
-
         </Routes>
       </BrowserRouter>
       {<Footer />}

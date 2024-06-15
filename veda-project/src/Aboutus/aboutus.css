@@ -81,7 +81,7 @@
 .abo_card-container {
     width: 100vw;
     height: auto;
-    background-color: #eca008;
+    background-image: linear-gradient(red, yellow);
     display: flex;
     align-items: center;
     justify-content: center;
