@@ -1,55 +1,41 @@
-*{
-    margin: 0px;
-    padding:0px;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
-
-}   
-
-.container{
-    margin-top: 25rem;
+.yoga-container {
+    background-color: rgba(255, 152, 0, 0.75);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-body{
-    background: rgb(255, 152, 0, 0.75);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+.yoga-heading {  /* Upper most part of the webpage */
 
-.heading{            /*Upper most part of the webpage*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 2px solid grey; */
+    background-color: rgba(255, 152, 0, 0.75);
+    border: 5px solid black;
+    font-size: 3rem;    
+    text-align: center;
     border-radius: 12px;
+
 }
 
-.card{
+.yoga-card {
     height: 190px;
     position: relative;
-    width: 318px;
+    width: 360px;
     border-radius: 15px;
     box-shadow: 2px 5px 23px 12px #000;
     transition: 0.3s;
-    padding: 30px 45px;
+    padding-top: 30px ;
+    padding-left: 20px;
     background-color: white;
     cursor: pointer;
     margin: 3rem;
     margin-top: 2rem;
 }
 
-.card:hover{
-    height :350px;
+.yoga-card:hover {
+    height: 350px;
     box-shadow: 2px 2px 3px 4px #000;
 }
 
-.image{
+.yoga-image {
     position: relative;
     margin-top: 1rem;
     height: auto;
@@ -57,21 +43,21 @@ body{
     transform: translateY(-20px);
     transition: 5s;
 }
-.img:hover{
-    box-shadow:  3px 3px 20px rgba(2, 3, 3, 3);
 
+.yoga-img:hover {
+    box-shadow: 3px 3px 20px rgba(2, 3, 3, 3);
 }
 
-img{
+.yoga-image img {
     width: 100%;
     border-radius: 12px;
-    box-shadow: 0px 0px 15px rgba(0, 00, 0, 1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
 
-.content{
+.yoga-content {
     padding: 2px 20px;
     /* border: 2px solid red; */
-     font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     align-items: center;
     transform: translateY(-40px);
     transition: 2.5s;
@@ -80,18 +66,20 @@ img{
     box-sizing: border-box;
     overflow: auto;
     text-decoration: none; */
-   opacity: 0;
-   text-transform: uppercase;
+    opacity: 0;
+    text-transform: uppercase;
 }
 
-.content:hover{
+.yoga-content:hover {
     /* text-shadow: 3px 12px 10px; */
     margin: auto;
-   
 }
 
-.card:hover > .content{
-   opacity: 1;
-   transform: translateY(0.0001px);
+.yoga-card:hover > .yoga-content {
+    opacity: 1;
+    transform: translateY(0.0001px);
 }
 
+.yoga-card-title{
+    padding-right: 5rem;
+}

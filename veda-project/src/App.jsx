@@ -19,6 +19,7 @@ import Skin from "./Skin/Skin";
 import MassageMaps from './Map/MassageMap'
 import Learn from "./WhatIs/Learn";
 import Books from "./Books/Books";
+import Yoga from "./Yoga/Yoga";
 
 
 
@@ -47,6 +48,7 @@ const App = () => {
         <Route path="/massage" element={<MassageMaps />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/books" element={<Books />} />
+        <Route path="/yoga" element={<Yoga />} />
         </Routes>
       </BrowserRouter>
       {<Footer />}
