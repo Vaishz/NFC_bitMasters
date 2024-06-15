@@ -1,0 +1,29 @@
+#learn-head{
+    font-size: 2rem;
+    border-bottom: 5px solid black;
+    padding-bottom: 0.1rem;
+    margin-bottom: 1rem;
+    margin-right: 71rem;
+}
+.p1{
+    font-size: 17px;
+    width: 95vw;
+}
+h2{
+    font-size: 20px;
+}
+
+.container{
+    width: 95vw;
+    height: auto;
+    word-wrap: none;
+    margin-left: 50px;
+    
+}
+
+#learn-body{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+  

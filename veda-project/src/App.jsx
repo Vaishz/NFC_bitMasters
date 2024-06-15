@@ -7,7 +7,6 @@ import AboutUs from './Aboutus/AboutUs'
 import Alternatives from "./Alternatives/Alternatives"
 //import KaphaBodyType from './body-types/KaphaBodyType';
 //import Vata from './body-types/VataBodyType';
-// import Books from "./Books/Books";
 //import PittaBodyType from "./body-types/PittaBodyType";
 import Products from "./Products/Products";
 import Diseases from "./body-types/Diseases";
@@ -17,7 +16,9 @@ import Doctor from "./Doctor/Doctor";
 import FAQ from "./FAQ/FAQ";
 import Services from "./Services/Services";
 import Skin from "./Skin/Skin";
-
+import Books from "./Books/Books";
+import Learn from "./WhatIs/Learn";
+ 
 
 
 
@@ -38,6 +39,8 @@ const App = () => {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/services" element={<Services />} />
         <Route path="/skin" element={<Skin />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/learn" element={<Learn />} />
         {/* <Route path="/kapha" element={<KaphaBodyType />} /> */}
         {/* <Route path="/pitta" element={<PittaBodyType />} /> */}
 

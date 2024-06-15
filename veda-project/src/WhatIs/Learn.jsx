@@ -1,59 +1,13 @@
 import React from 'react';
-import './whatis.css';
+import './learn.css';
 
-function WhatIsAyurveda() {
+function Learn() {
   return (
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
-          rel="stylesheet"
-        />
-        <title>What Is Ayurveda</title>
-      </head>
-      <body>
-        <nav class="navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>
-              <a href="#">Services </a>
-              <ul class="dropdown1">
-                <li><a href="Yoga/Yoga.html" target="_blank">Yoga</a></li>
-                <li><a href="Map/massageMap.html">Massages</a></li>
-                <li><a href="Books/books.html" target="_blank">Books</a></li>
-              </ul>
-            </li>
-            <li><a href="Alternatives/alternatives.html">Alternatives </a></li>
-            <li><a href="Products/products.html">Products</a></li>
-            <li class="dropdown-trigger">
-              <a>Contact Us</a>
-              <ul class="dropdown1">
-                <li><a href="Whatis.html">What is Ayurveda</a></li>
-                <li><a href="CustomerExp.html">Customer Experiences</a></li>
-                <li><a href="doctor.html">Contact Doctors</a></li>
-                <li><a href="Aboutus/aboutus.html">About Creators</a></li>
-                <li><a href="body-types/diseases.html">Know More</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <div class="fixed-bg"></div>
+      <body id='learn-body'>
         <div class="container">
-          <h1>
+          <div id='learn-head'>
             WHAT IS AYRUVEDA
-            <hr />
-          </h1>
+          </div>
           <div class="p1">
             Ayurveda is a traditional system of medicine that has its roots in India and is one of the world's oldest holistic
             healing systems. The term "Ayurveda" is derived from the Sanskrit words "ayur," which means life, and "veda," which
@@ -100,8 +54,7 @@ function WhatIsAyurveda() {
           </p>
         </div>
       </body>
-    </html>
   );
 }
 
-export default WhatIsAyurveda;
+export default Learn;
