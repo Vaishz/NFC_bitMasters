@@ -23,14 +23,14 @@
     background-color: #f1eead;
     position: relative;
     border-radius: 15px;
-    perspective: 1000px; /* Increased for better 3D effect */
+    perspective: 1000px;
     margin: 2rem;
-    transition: transform 0.6s;
     transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out; /* Smoother transition */
 }
 
-.books-card:hover .books-card-front {
-    transform: rotateY(-180deg);
+.books-card:hover {
+    transform: rotateY(180deg);
 }
 
 .books-card-front, .books-card-back {
@@ -43,20 +43,18 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    transition: transform 0.8s ease-in-out; /* Smoother transition */
 }
 
 .books-card-front {
     background-color: #124c44;
     color: white;
     transform: rotateY(0deg);
-    z-index: 2;
-    transition: transform 0.6s;
 }
 
 .books-card-back {
     background-color: #97d983;
     transform: rotateY(180deg);
-    z-index: 1;
 }
 
 .books-card-front-image, .books-card-back-image {
@@ -72,7 +70,7 @@
 .books-card-front-image img {
     width: 200px;
     height: 300px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 15px;
 }
 
