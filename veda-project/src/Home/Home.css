@@ -6,6 +6,10 @@
     color: #020102;
 }
 
+#typewriter{
+  background-color: rgb(236, 117, 117);
+}
+
 .head-1,
 .head-2
 {
@@ -27,14 +31,16 @@
 
 .head-2 span
 {
-background-color: #000000;
+background-color: black;
 font-family: 'Teko', sans-serif;
-color:white;
+color:rgb(249, 105, 1);
 }
 
-.switch-to{
-    color: rgb(0, 0, 0);
+.head-2 h2{
+  color: #ffffff;
 }
+
+
 
 .reasons {
     font-size: 3rem;
@@ -65,7 +71,7 @@ color:white;
     background-color:transparent;
     align-items: center;
     justify-content: center;
-    color: rgb(196, 126, 21);
+    color: rgb(255, 251, 0);
   }
 
   .image-container
@@ -82,5 +88,5 @@ color:white;
     width: 100%;
     height: 400%;
     object-fit:fill;
-    filter: blur(15px);
+    filter: blur(8px);
   }

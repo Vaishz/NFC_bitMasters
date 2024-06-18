@@ -1,20 +1,49 @@
 import React, { useEffect } from 'react';
 import './Home.css';
-import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect/dist/core';
+import bg from '../Images/bg-1.jpg'
 
 const Home = () => {
+  useEffect(() => {
+    const typewriter = new Typewriter('#typewriter', {
+      strings: [
+        'Fatigue', 
+        'Stress', 
+        'Anxiety', 
+        'Depression', 
+        'Insomnia', 
+        'Low Energy', 
+        'Poor Digestion', 
+        'Tension', 
+        'Headaches', 
+        'Joint Pain', 
+        'Back Pain', 
+        'Weak Immunity', 
+        'Restlessness', 
+        'Mood Swings', 
+        'Burnout', 
+        'Mental Exhaustion'
+      ],
+      autoStart: true,
+      loop: true // Ensures the typewriter keeps looping through the strings
+    });
+
+    return () => {
+      typewriter.stop(); // Clean up the typewriter instance on unmount
+    };
+  }, []);
 
   return (
     <>
       <div className="head-1">
-        <h1>Are you tired of <span id="type">Fatigue</span></h1>
+        <h1>Are you tired of <span id="typewriter"></span>?</h1>
       </div>
 
       <div className="head-2">
         <div className="image-container">
-          <img src="Images/bg-1.jpg" alt="Background"/>
+          <img src={bg} alt="Background" />
         </div>
-        <h2 className='switch_to'>SWITCH TO <span> AYURVEDA!</span></h2>
+        <h2 className="switch_to">SWITCH TO <span> AYURVEDA!</span></h2>
       </div>
 
       <h2 id="ans">Here's why you should too:</h2>
@@ -30,8 +59,6 @@ const Home = () => {
         <h1>Cultural Heritage</h1>
         <h1>Holistic Wellness</h1>
       </div>
-
-      
     </>
   );
 }

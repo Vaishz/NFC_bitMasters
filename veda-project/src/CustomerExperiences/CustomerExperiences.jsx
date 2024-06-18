@@ -1,5 +1,6 @@
 import React from "react";
 import "./CustomerExp.css"; 
+import cus from '../Images/cus.png'
 function CustomerExperiences() {
   const customers = [
     {
@@ -8,7 +9,7 @@ function CustomerExperiences() {
       quote: "My Experience with Veda Redefined was miraculous",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor1.png",
+      image: cus
     },
     {
       id: 2,
@@ -16,7 +17,7 @@ function CustomerExperiences() {
       quote: "Veda Redefined products changed my life!",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor2.png",
+        image: cus,
     },
     {
       id: 3,
@@ -24,7 +25,7 @@ function CustomerExperiences() {
       quote: "Incredible results with Veda Redefined!",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor3.png",
+      image: cus,
     },
     {
       id: 4,
@@ -32,7 +33,7 @@ function CustomerExperiences() {
       quote: "Highly recommend Veda Redefined's products!",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor4.png",
+        image: cus,
     },
     {
       id: 5,
@@ -40,7 +41,7 @@ function CustomerExperiences() {
       quote: "Amazing experience with Veda Redefined",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor5.png",
+        image: cus,
     },
     {
       id: 6,
@@ -48,7 +49,7 @@ function CustomerExperiences() {
       quote: "Veda Redefined's products are outstanding!",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor6.png",
+        image: cus,
     },
     {
       id: 7,
@@ -56,7 +57,7 @@ function CustomerExperiences() {
       quote: "Transformed my health with Veda Redefined",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor7.png",
+      image: cus
     },
     {
       id: 8,
@@ -64,7 +65,7 @@ function CustomerExperiences() {
       quote: "Couldn't be happier with Veda Redefined",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor8.png",
+        image: cus
     },
     {
       id: 9,
@@ -72,7 +73,7 @@ function CustomerExperiences() {
       quote: "Amazing service and products from Veda Redefined",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor9.png",
+        image: cus
     },
     {
       id: 10,
@@ -80,7 +81,7 @@ function CustomerExperiences() {
       quote: "Impressed with Veda Redefined's quality",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius laborum fugit quae amet dignissimos impedit ad ut! Ea, corrupti. Harum beatae ipsa illum est explicabo dolor",
-      image: "Images/doctor10.png",
+        image: cus
     },
   ];
 

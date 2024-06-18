@@ -1,99 +1,165 @@
 import React from 'react';
 import './alternatives.css';
 
+import alt1 from './images/alt1.jpg';
+import alt2 from './images/alt2.jpg';
+import alt3 from './images/alt3.jpg';
+import alt4 from './images/alt4.jpg';
+import alt5 from './images/alt5.webp';
+import alt6 from './images/alt6.jpg';
+import alt7 from './images/alt7.webp';
+import alt8 from './images/alt8.webp';
+import alt9 from './images/alt9.jpeg';
+import alt10 from './images/alt10.jpg';
+import alt11 from './images/alt11.jpeg';
+import alt12 from './images/alt12.webp';
+import alt13 from './images/alt13.jpg';
+import alt14 from './images/alt14.jpg';
+import alt15 from './images/alt15.webp';
+
+import alo1 from './images/alo1.webp';
+import alo2 from './images/alo2.jpg';
+import alo3 from './images/alo3.jpg';
+import alo4 from './images/alo4.webp';
+import alo5 from './images/alo5.jpg';
+import alo6 from './images/alo6.jpeg';
+import alo7 from './images/alo7.jpg';
+import alo8 from './images/alo8.webp';
+import alo9 from './images/alo9.jpg';
+import alo10 from './images/alo10.jpg';
+import alo11 from './images/alo11.webp';
+import alo12 from './images/alo12.jpg';
+import alo13 from './images/alo13.webp';
+import alo14 from './images/alo14.png';
+import alo15 from './images/alo15.png';
+
+const imageMap = {
+    'alt1.jpg': alt1,
+    'alt2.jpg': alt2,
+    'alt3.jpg': alt3,
+    'alt4.jpg': alt4,
+    'alt5.jpg': alt5,
+    'alt6.jpg': alt6,
+    'alt7.jpg': alt7,
+    'alt8.jpg': alt8,
+    'alt9.jpg': alt9,
+    'alt10.jpg': alt10,
+    'alt11.jpg': alt11,
+    'alt12.jpg': alt12,
+    'alt13.jpg': alt13,
+    'alt14.jpg': alt14,
+    'alt15.webp':alt15,
+    'alo1.webp': alo1,
+    'alo2.jpg': alo2,
+    'alo3.jpg': alo3,
+    'alo4.webp': alo4,
+    'alo5.jpg': alo5,
+    'alo6.jpeg': alo6,
+    'alo7.jpg': alo7,
+    'alo8.webp': alo8,
+    'alo9.jpg': alo9,
+    'alo10.jpg': alo10,
+    'alo11.webp': alo11,
+    'alo12.jpg': alo12,
+    'alo13.webp': alo13,
+    'alo14.png': alo14,
+    'alo15.png':alo15
+};
+
 const Alternatives = () => {
     return (
         <div className="alt_container">
             {[
                 {
                     dontChoose: "Dettol",
-                    dontChooseImage: "images/alo1.webp",
+                    dontChooseImage: alo1,
                     choose: "Turmeric",
-                    chooseImage: "images/alt1.jpg"
+                    chooseImage: alt1
                 },
                 {
                     dontChoose: "Digeston Heath-aid",
-                    dontChooseImage: "images/alo2.jpg",
+                    dontChooseImage: alo2,
                     choose: "Himalaya Trikatu Digestive Tablets",
-                    chooseImage: "images/alt2.jpg"
+                    chooseImage: alt2
                 },
                 {
                     dontChoose: "Haemoglow Blood Purifier",
-                    dontChooseImage: "images/alo3.jpg",
+                    dontChooseImage: alo3,
                     choose: "Neem Ayurvedic Capsules Blood Purifier",
-                    chooseImage: "images/alt3.jpg"
+                    chooseImage: alt3
                 },
                 {
                     dontChoose: "Relent Cold Syrup",
-                    dontChooseImage: "Images/alo4.webp",
+                    dontChooseImage: alo4,
                     choose: "Ayurvedic Expectorant Cough Syrup",
-                    chooseImage: "Images/alt4.jpg"
+                    chooseImage: alt4
                 },
                 {
                     dontChoose: "Livolin Forte",
-                    dontChooseImage: "Images/alo5.jpg",
+                    dontChooseImage: alo5,
                     choose: "Ginger",
-                    chooseImage: "Images/alt5.webp"
+                    chooseImage: alt5
                 },
                 {
                     dontChoose: "Digoxin Tablets",
-                    dontChooseImage: "Images/alo6.jpeg",
+                    dontChooseImage: alo6,
                     choose: "Arjun-Chaal",
-                    chooseImage: "Images/alt6.jpg"
+                    chooseImage: alt6
                 },
                 {
                     dontChoose: "Digene Acidity Syrup",
-                    dontChooseImage: "Images/alo7.jpg",
+                    dontChooseImage: alo7,
                     choose: "Isabgol Powder",
-                    chooseImage: "Images/alt7.webp"
+                    chooseImage: alt7
                 },
                 {
                     dontChoose: "Biotin Hair Gummies",
-                    dontChooseImage: "Images/alo8.webp",
+                    dontChooseImage: alo8,
                     choose: "Bhringraj & Shikaka",
-                    chooseImage: "Images/alt8.webp"
+                    chooseImage: alt8
                 },
                 {
                     dontChoose: "ShelCal 500",
-                    dontChooseImage: "Images/alo9.jpg",
+                    dontChooseImage: alo9,
                     choose: "Amla",
-                    chooseImage: "Images/alt9.jpeg"
+                    chooseImage: alt9
                 },
                 {
                     dontChoose: "Nerve Plus Tablets",
-                    dontChooseImage: "Images/alo10.jpg",
+                    dontChooseImage: alo10,
                     choose: "Saraswatharishtam",
-                    chooseImage: "Images/alt10.jpg"
+                    chooseImage: alt10
                 },
                 {
                     dontChoose: "Redness Reliever Drops",
-                    dontChooseImage: "Images/alo11.webp",
+                    dontChooseImage: alo11,
                     choose: "Triphala Kashaya",
-                    chooseImage: "Images/alt11.jpeg"
+                    chooseImage: alt11
                 },
                 {
                     dontChoose: "Riffway Weightloss Tablets",
-                    dontChooseImage: "Images/alo12.jpg",
+                    dontChooseImage: alo12,
                     choose: "Wheatgrass",
-                    chooseImage: "Images/alt12.webp"
+                    chooseImage: alt12
                 },
                 {
                     dontChoose: "DERMOSPA SKIN Cream",
-                    dontChooseImage: "Images/alo13.webp",
+                    dontChooseImage: alo13,
                     choose: "Chandan Lepa",
-                    chooseImage: "Images/alt13.jpg"
+                    chooseImage: alt13
                 },
                 {
                     dontChoose: "Panadol Period Pain Tablets",
-                    dontChooseImage: "Images/alo14.png",
+                    dontChooseImage: alo14,
                     choose: "Gynoveda Irregular Periods Medicine",
-                    chooseImage: "Images/alt14.jpg"
+                    chooseImage: alt14
                 },
                 {
                     dontChoose: "Vogroz Diabetes Tablets",
-                    dontChooseImage: "Images/alo15.png",
+                    dontChooseImage: alo15,
                     choose: "Diabza Tablets",
-                    chooseImage: "Images/alt15.webp"
+                    chooseImage: alt15
+
                 }
             ].map((item, index) => (
                 <div className="alt_card" key={index}>

@@ -1,12 +1,16 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import './Nav.css';
+import Favi from '../Images/herbal1.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li><NavLink to="/">Home </NavLink></li>
+        <li><NavLink to="/">
+        🌿🍀🍂🥬
+
+         </NavLink></li>
         <li>
         <NavLink to="/services">Services </NavLink>
           <ul className="dropdown1">

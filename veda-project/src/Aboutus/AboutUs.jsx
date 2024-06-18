@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './aboutus.css';
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaInstagram } from "react-icons/fa";
 import Typed from 'typed.js';
 import VaishnaviImage from './Images/Vaishnavi.jpg';
 import AshmitImage from './Images/ash.jpeg';
@@ -39,13 +39,15 @@ const AboutUs = () => {
             <a href="https://github.com/Vaishz" target="_blank" rel="noopener noreferrer">
               <FaGithub id="v-git" />
             </a>
-            <a href="https://www.linkedin.com/in/vaishnavi-poti" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/vaishnavi-v-p" target="_blank" rel="noopener noreferrer">
               <FaLinkedin id="v-link" />
             </a>
-            <a href="mailto:vaishnavi@example.com">
+            <a href="mailto:poti.vaishnavi21@gmail.com">
               <FaEnvelope id="v-mail" />
             </a>
-            <FaTwitter id="v-twitter" />
+            <a href="https://twitter.com/yep_vaishz" target="_blank" rel="noopener noreferrer">
+              <FaTwitter id="v-twitter" />
+            </a>
           </h5>
         </div>
       </div>
@@ -62,16 +64,19 @@ const AboutUs = () => {
           <br />
           <h4>Hobbies: Reading</h4>
           <h5>
-            <a href="https://github.com/Ashmit" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AshmitSrivastava" target="_blank" rel="noopener noreferrer">
               <FaGithub id="a-git" />
             </a>
-            <a href="https://www.linkedin.com/in/ashmit-srivastava" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/ashmit-srivastava-4443ba21a" target="_blank" rel="noopener noreferrer">
               <FaLinkedin id="a-link" />
             </a>
-            <a href="mailto:ashmit@example.com">
+            <a href="mailto:ashmitsrivastava@example.com">
               <FaEnvelope id="a-mail" />
             </a>
-            <FaTwitter id="a-twitter" />
+
+            <a href="https://www.instagram.com/ashmit.s.1607/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram id="a-instagram" />
+            </a>
           </h5>
         </div>
       </div>
@@ -88,16 +93,19 @@ const AboutUs = () => {
           <br />
           <h4>Hobbies: Gaming</h4>
           <h5>
-            <a href="https://github.com/Dhruv" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Dhruvt0310" target="_blank" rel="noopener noreferrer">
               <FaGithub id="d-git" />
             </a>
-            <a href="https://www.linkedin.com/in/dhruv-tater" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/dhruv-tater-404810291/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin id="d-link" />
             </a>
-            <a href="mailto:dhruv@example.com">
+            <a href="mailto:taterdhruv0310@gmail.com">
               <FaEnvelope id="d-mail" />
             </a>
-            <FaTwitter id="d-twitter" />
+
+            <a href="https://www.instagram.com/dhruv_tater/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram id="d-instagram" />
+            </a>
           </h5>
         </div>
       </div>
@@ -114,16 +122,19 @@ const AboutUs = () => {
           <br />
           <h4>Hobbies: Drawing</h4>
           <h5>
-            <a href="https://github.com/Shweta" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/shwetasidhwani" target="_blank" rel="noopener noreferrer">
               <FaGithub id="s-git" />
             </a>
-            <a href="https://www.linkedin.com/in/shweta-sidhwani" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/shweta-sidhwani-b66153287/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin id="s-link" />
             </a>
-            <a href="mailto:shweta@example.com">
+            <a href="mailto:shwetasidhwani@gmail.com">
               <FaEnvelope id="s-mail" />
             </a>
-            <FaTwitter id="s-twitter" />
+
+            <a href="https://www.instagram.com/shweta_sidh" target="_blank" rel="noopener noreferrer">
+              <FaInstagram id="s-instagram" />
+            </a>
           </h5>
         </div>
       </div>
