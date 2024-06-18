@@ -20,6 +20,7 @@ import MassageMaps from './Map/MassageMap'
 import Learn from "./WhatIs/Learn";
 import Books from "./Books/Books";
 import Yoga from "./Yoga/Yoga";
+import MassageMap from "./Map/MassageMap";
 
 
 
@@ -49,6 +50,9 @@ const App = () => {
         <Route path="/learn" element={<Learn />} />
         <Route path="/books" element={<Books />} />
         <Route path="/yoga" element={<Yoga />} />
+        <Route path="/doctors" element={<Doctor />} />
+        <Route path="/map" element={<MassageMap />} />
+        
         </Routes>
       </BrowserRouter>
       {<Footer />}

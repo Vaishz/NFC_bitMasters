@@ -1,29 +1,34 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import './Nav.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li><a>Home</a></li>
+        <li><NavLink to="/">Home </NavLink></li>
         <li>
-          <a>Services</a>
+        <NavLink to="/services">Services </NavLink>
           <ul className="dropdown1">
-            <li><a>Yoga</a></li>
-            <li><a>Massages</a></li>
-            <li><a>Books</a></li>
+            <li><NavLink to="/yoga">Yoga </NavLink></li>
+            <li><NavLink to="/alternatives">Alternatives</NavLink></li>
+            <li><NavLink to="/books">Books</NavLink></li>
           </ul>
         </li>
-        <li><a>Alternatives</a></li>
-        <li><a>Products</a></li>
+        <li><NavLink to="/digestive">Digestive</NavLink></li>
+        <li><NavLink to="/products">Products</NavLink></li>
+        <li><NavLink to="/doctors">Doctors</NavLink></li>
         <li className="dropdown-trigger">
-          <a>Contact Us</a>
+          <a>Quick Info</a>
           <ul className="dropdown3">
-            <li><a>What is Ayurveda</a></li>
-            <li><a>Customer Experiences</a></li>
-            <li><a>Contact Doctors</a></li>
-            <li><a>About Creators</a></li>
-            <li><a>Know More</a></li>
+            <li><NavLink to="/learn">What is Ayurveda</NavLink></li>
+            <li><NavLink to="/skin">Skin Types</NavLink></li>
+            <li><NavLink to="/diseases">Diseases</NavLink></li>
+            <li><NavLink to="/diseases">Diseases</NavLink></li>
+            <li><NavLink to="/map">Massage Map</NavLink></li>
+            {/* <li><NavLink to="/customer">Customer Experiences</NavLink></li> */}
+            {/* <li><NavLink to="/about">About Creators</NavLink></li> */}
+            <li><NavLink to="/faq">FAQs</NavLink></li>
           </ul>
         </li>
       </ul>
