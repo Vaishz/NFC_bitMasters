@@ -4,21 +4,6 @@ import './diseases.css';
 const Diseases = () => {
     return (
         <div>
-
-            <div className="bts">
-                <div className="cards">
-                    <div className="card">
-                        <a href="vata.html">Vata</a>
-                    </div>
-                    <div className="card">
-                        <a href="pitta.html">Pitta</a>
-                    </div>
-                    <div className="card">
-                        <a href="kapha.html">Kapha</a>
-                    </div>
-                </div>
-            </div>
-
             <div className="disease">
                 <div className="h1" id="dis_title">
                     ASTHAMA

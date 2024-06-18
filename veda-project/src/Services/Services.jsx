@@ -12,7 +12,7 @@ function Services() {
       <div className="service-section">
         <div className="service">
           <div className="service-image">
-            <img src="Images/ayurveda.jpg" alt="Ayurveda Consultation" />
+            <img src="https://ayurhealthcare.com.au/wp-content/uploads/2020/09/follow-up-consultation.jpg" alt="Ayurveda Consultation" />
           </div>
           <div className="service-content">
             <h2>Ayurveda Consultation</h2>
@@ -23,7 +23,7 @@ function Services() {
 
         <div className="service">
           <div className="service-image">
-            <img src="Images/yoga.jpg" alt="Yoga Classes" />
+            <img src="https://i.insider.com/6172edae4f281c001296a1e7?width=700" alt="Yoga Classes" />
           </div>
           <div className="service-content">
             <h2>Yoga Classes</h2>
@@ -34,7 +34,7 @@ function Services() {
 
         <div className="service">
           <div className="service-image">
-            <img src="Images/massage.jpg" alt="Ayurvedic Massages" />
+            <img src="https://yogapractice.com/wp-content/uploads/2020/12/What-is-an-Ayurvedic-Massage-10-Things-You-Should-Know-Before-You-Go.jpg" alt="Ayurvedic Massages" />
           </div>
           <div className="service-content">
             <h2>Ayurvedic Massages</h2>
@@ -45,7 +45,7 @@ function Services() {
 
         <div className="service">
           <div className="service-image">
-            <img src="Images/nutrition.jpg" alt="Nutrition & Diet Counseling" />
+            <img src="https://i0.wp.com/zendermatology.com/storage/2022/05/zen-dermatologyNutrition-Lifestyle-CounselingPrimary-scaled-sacramanto.jpeg" alt="Nutrition & Diet Counseling" />
           </div>
           <div className="service-content">
             <h2>Nutrition & Diet Counseling</h2>

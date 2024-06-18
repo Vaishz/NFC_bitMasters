@@ -8,7 +8,7 @@ function Digestive() {
     <>
       <div className="dig-digestive-system">
         <div className="dig-bg-image">
-          <img src={Dig1}/>
+         
         </div>
 
         <div className="dig-content">

@@ -21,6 +21,7 @@ import Learn from "./WhatIs/Learn";
 import Books from "./Books/Books";
 import Yoga from "./Yoga/Yoga";
 import MassageMap from "./Map/MassageMap";
+import Body_types from "./body-types/Body_types";
 
 
 
@@ -52,7 +53,7 @@ const App = () => {
         <Route path="/yoga" element={<Yoga />} />
         <Route path="/doctors" element={<Doctor />} />
         <Route path="/map" element={<MassageMap />} />
-        
+        <Route path="/bodytypes" element={<Body_types />} />
         </Routes>
       </BrowserRouter>
       {<Footer />}

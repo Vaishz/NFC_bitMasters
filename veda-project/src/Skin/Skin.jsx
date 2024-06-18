@@ -3,7 +3,7 @@ import './skin.css';
 
 function Skin() {
   return (
-    <div>
+    <div className='skin-bg-color'>
       <div className="skin-bg-image"></div>
       <div className="skin-bg-text">
         <h1 id="skin-h1">Skin-types</h1>

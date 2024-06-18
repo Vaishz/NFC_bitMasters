@@ -18,11 +18,10 @@ function Footer() {
             <h4>Browse! <div className="underline"><span></span></div></h4>
             {/* 1st column */}
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="Books/books.html">Books</a></li>
-              <li><a href="alternatives.html">Alternatives</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/products">Products</a></li>
+              <li><a href="/books">Books</a></li>
+              <li><a href="/bodytypes">Body Types</a></li>
             </ul>
           </div>
           <div className="cols">
@@ -39,10 +38,10 @@ function Footer() {
           <div className="cols">
             <h4>Know<div className="underline"><span></span></div> </h4>
             <ul>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Yoga</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/customer">Testimonials</a></li>
+              <li><a href="/alternatives">Alternatives</a></li>
+              <li><a href="/yoga">Yoga</a></li>
             </ul>
           </div>
         </div>

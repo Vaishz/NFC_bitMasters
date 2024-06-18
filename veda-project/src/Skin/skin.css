@@ -1,27 +1,43 @@
 
+.skin-bg-color{
+  background-image:linear-gradient(rgb(113, 221, 113),rgb(220, 220, 126));
+  padding-bottom: 2rem;
+}
+/* Main container */
+.skin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
+/* Background image */
 .skin-bg-image {
   background-image: url("images/skin_bg.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(0.7); /* Adjust brightness for better readability */
 }
 
+/* Content overlay */
 .skin-bg-text {
-  font-size: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.31); 
-  color: rgb(22, 28, 18);
-  font-weight: bold;
-  border: 3px solid #000000;
-  position: relative;
-  width: 80%;
-  padding: 20px;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin-left: 10rem;
+  background-color: rgba(169, 114, 101, 0.7);
+  padding: 20px;
+  border: 3px solid #000;
+  width: 80%;
+  max-width: 600px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #skin-h1 {
@@ -49,7 +65,7 @@
 }
 
 .skin-btn {
-background-color: #c9cc8a;
+background-color: #a4ab24;
 text-align: center;
 font-size: 16px;
 margin: 4px 2px;

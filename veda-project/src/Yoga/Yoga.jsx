@@ -1,6 +1,14 @@
 import React from 'react';
 import './yoga.css';
-// import {Balasana} from './Balasana.jpg'
+import Balasana from './Balasana.jpg'
+import Navasana from './Navasana.jpg'
+import Bharadvajasana from './Bharadvajasana.jpg'
+import Dhanurasana from './Dhanurasana.jpg'
+import Paschimottanasana from './Paschimottanasana.jpg'
+import PrasaritaPadottanasana from './PrasaritaPadottanasana.jpg'
+import RevolvedTrianglePose from './Revolved-Triangle-Pose.webp'
+import Virabhadrasana from './Virabhadrasana.jpg'
+import UrdhvaDhanurasana from './UrdhvaDhanurasana.jpg'
 
 function Yoga() {
   return (<>
@@ -9,7 +17,7 @@ function Yoga() {
    
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Revolved-Triangle-Pose.webp" alt="Trikonasana" />
+          <img src={RevolvedTrianglePose} alt="Trikonasana" />
         </div>
         <div className="yoga-content">
           <h4 className='yoga-card-title'>Trikonasana</h4>
@@ -22,7 +30,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Virabhadrasana.jpg" alt="Virabhadrasana" />
+          <img src={Virabhadrasana} alt="Virabhadrasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
@@ -36,7 +44,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          {/* <img src={Balasana} /> */}
+          <img src={Balasana}  />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
@@ -50,7 +58,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Paschimottanasana.jpg" alt="Paschimottanasana" />
+          <img src={Paschimottanasana} alt="Paschimottanasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
@@ -64,11 +72,11 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Prasarita Padottanasana.jpg" alt="Prasarita Padottanasana" />
+          <img src={PrasaritaPadottanasana} alt="Prasarita Padottanasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
-          <h4 className='yoga-card-title'>Prasarita Padottanasana</h4>
+          <h4 className='yoga-card-title'>Padottanasana</h4>
           <ul>
             <li>Stretches hamstrings, calves, and hips</li>
             <li>Builds awareness of protecting your lower back</li>
@@ -77,7 +85,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Urdhva Dhanurasana.jpg" alt="Urdhva Dhanurasana" />
+          <img src={UrdhvaDhanurasana} alt="Urdhva Dhanurasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
@@ -91,7 +99,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Dhanurasana.jpg" alt="Dhanurasana" />
+          <img src={Dhanurasana} alt="Dhanurasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
@@ -105,7 +113,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Navasana.jpg" alt="Paripurna Navasana" />
+          <img src={Navasana} alt="Paripurna Navasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">
@@ -118,7 +126,7 @@ function Yoga() {
       </div>
       <div className="yoga-card">
         <div className="yoga-image">
-          <img src="Bharadvajasana.jpg" alt="Bharadvajasana" />
+          <img src={Bharadvajasana} alt="Bharadvajasana" />
           <a href="https://www.youtube.com/watch?v=yxNtoOJ9500" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="yoga-content">

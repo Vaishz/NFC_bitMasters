@@ -67,7 +67,7 @@ footer .cols ul li{
 }
 
 footer .cols ul li a:hover{
-    font-size: 1.5rem;
+    font-size: .2rem;
     opacity: 1;
     border-bottom: 1px solid white;
 }
