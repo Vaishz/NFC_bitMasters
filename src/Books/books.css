@@ -1,4 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.books-container {
+    width: 100vw;
+    height: auto;
+    background-color: #f5f0c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
 .books-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 400px;
     height: 400px;
     background-color: #f1eead;
@@ -6,8 +25,8 @@
     border-radius: 15px;
     perspective: 1000px;
     margin: 2rem;
-    transition: transform 0.5s; /* Smoother transition */
-    transform-style: preserve-3d; /* Ensure 3D transform continuity */
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out; /* Smoother transition */
 }
 
 .books-card:hover {
@@ -17,12 +36,14 @@
 .books-card-front, .books-card-back {
     width: 100%;
     height: 100%;
+    border-radius: 15px;
     position: absolute;
     backface-visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    transition: transform 0.8s ease-in-out; /* Smoother transition */
 }
 
 .books-card-front {
@@ -34,6 +55,16 @@
 .books-card-back {
     background-color: #97d983;
     transform: rotateY(180deg);
+}
+
+.books-card-front-image, .books-card-back-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .books-card-front-image img {
@@ -58,7 +89,7 @@
     width: 100px;
     height: 40px;
     margin: 4px 2px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+    transition-duration: 0.4s;
     cursor: pointer;
     align-content: center;
     border-radius: 15px;

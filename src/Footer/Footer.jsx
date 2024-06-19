@@ -1,5 +1,6 @@
 import React from "react";
-import "./footer.css"; 
+import { NavLink } from "react-router-dom";
+import "./footer.css";
 import Logo from '../Images/logo.png';
 
 function Footer() {
@@ -18,10 +19,10 @@ function Footer() {
             <h4>Browse! <div className="underline"><span></span></div></h4>
             {/* 1st column */}
             <ul>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/products">Products</a></li>
-              <li><a href="/books">Books</a></li>
-              <li><a href="/bodytypes">Body Types</a></li>
+              <li><NavLink to="/services">Services</NavLink></li>
+              <li><NavLink to="/products">Products</NavLink></li>
+              <li><NavLink to="/books">Books</NavLink></li>
+              <li><NavLink to="/bodytypes">Body Types</NavLink></li>
             </ul>
           </div>
           <div className="cols">
@@ -38,10 +39,10 @@ function Footer() {
           <div className="cols">
             <h4>Know Us<div className="underline"><span></span></div> </h4>
             <ul>
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/customer">Testimonials</a></li>
-              <li><a href="/alternatives">Alternatives</a></li>
-              <li><a href="/yoga">Yoga</a></li>
+              <li><NavLink to="/about">About Us</NavLink></li>
+              <li><NavLink to="/customer">Testimonials</NavLink></li>
+              <li><NavLink to="/alternatives">Alternatives</NavLink></li>
+              <li><NavLink to="/yoga">Yoga</NavLink></li>
             </ul>
           </div>
         </div>
