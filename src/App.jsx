@@ -55,8 +55,8 @@ const App = () => {
         <Route path="/map" element={<MassageMap />} />
         <Route path="/bodytypes" element={<Body_types />} />
         </Routes>
-      </BrowserRouter>
       {<Footer />}
+      </BrowserRouter>
     </>
   );
 };
