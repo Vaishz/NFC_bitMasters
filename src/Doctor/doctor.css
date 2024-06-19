@@ -1,0 +1,117 @@
+/* doctor.css */
+
+/* Header styling */
+.dr_header {
+    text-align: center;
+    padding: 20px;
+    background-color: #A53F2B;
+    color: white;
+}
+
+/* Container for the entire content */
+.dr_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Background container styling */
+.dr_bg-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dr_bg-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+}
+
+/* Card container styling */
+.dr_card-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1;
+}
+
+/* Individual card styling */
+.dr_card {
+    width: 500px;
+    background-color: #F0FFCE;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dr_card:hover {
+    transform: scale(1.05);
+}
+
+/* Image container styling */
+.dr_image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dr_image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Content styling */
+.dr_content {
+    width: 100%;
+    flex: 1;
+}
+
+.dr_content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.dr_content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+.dr_btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #A53F2B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.dr_btn:hover {
+    background-color: #852D1E;
+}

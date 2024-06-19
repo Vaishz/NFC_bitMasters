@@ -1,0 +1,98 @@
+/* Digestive.css */
+
+/* Reset default body styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #fff; /* Set a white background */
+}
+
+/* Container for the entire digestive system section */
+.dig-digestive-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./Images/bg_img.jpg'); /* Background image path */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+/* Background overlay text */
+.dig-bg-text {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  color: #fff; /* White text color */
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Content container */
+.dig-content {
+  max-width: 800px; /* Limit content width */
+  background-color: rgba(255, 255, 255, 0.9); /* Light background with transparency */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Section headings */
+.dig-introduction h2,
+.dig-how-it-works h2,
+.dig-ayurvedic-remedies h2 {
+  color: #7b9d5d; /* Greenish color for headings */
+  font-family: 'Source Sans Pro', sans-serif; /* Google Font */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph text */
+.dig-introduction p,
+.dig-how-it-works p,
+.dig-ayurvedic-remedies p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333; /* Dark text color */
+}
+
+/* Lists */
+.dig-introduction ul,
+.dig-how-it-works ul,
+.dig-ayurvedic-remedies ul {
+  margin-top: 10px;
+  padding-left: 20px; /* Indent lists */
+}
+
+/* List items */
+.dig-introduction li,
+.dig-how-it-works li,
+.dig-ayurvedic-remedies li {
+  margin-bottom: 6px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555; /* Slightly darker text color */
+}
+
+/* Bold text in lists */
+.dig-introduction li strong,
+.dig-how-it-works li strong,
+.dig-ayurvedic-remedies li strong {
+  font-weight: bold;
+}
+
+/* Additional margin for last paragraph in Ayurvedic Remedies section */
+.dig-ayurvedic-remedies p:last-child {
+  margin-top: 20px;
+}
