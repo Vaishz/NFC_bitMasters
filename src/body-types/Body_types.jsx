@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import './body_type.css';
 
 const Body_types = () => {
@@ -7,19 +8,19 @@ const Body_types = () => {
       <div className="bts">
         <div className="bts-cards">
           <div className="bts-card">
-            <a href="/vata">Vata</a>
+            <NavLink to="/vata">Vata</NavLink>
             <div className="bts-description">
               <p>Characteristics: Dry, light, cool, and irregular</p>
             </div>
           </div>
           <div className="bts-card">
-            <a href="/pitta">Pitta</a>
+            <NavLink to="/pitta">Pitta</NavLink>
             <div className="bts-description">
               <p>Characteristics: Hot, intense, sharp, and acidic</p>
             </div>
           </div>
           <div className="bts-card">
-            <a href="/kapha">Kapha</a>
+            <NavLink to="/kapha">Kapha</NavLink>
             <div className="bts-description">
               <p>Characteristics: Heavy, slow, steady, and soft</p>
             </div>
